@@ -1,0 +1,71 @@
+$blue-color: #1da1f2; // for buttons and some text
+$blue-background-color: #d7f5f5; //for background
+$light-beige-background-color: #fbf8f3; //for background
+$yellow-border-color: #fce5be; //for border
+$grey-font-color: #828282; //for some text
+
+@mixin blue-button {
+    color: white;
+    background-color: $blue-color;
+    outline: none;
+    border: 2px solid $blue-color;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s;
+    .fa-twitter {
+        margin-right: 10px;
+        font-size: 26px;
+    }
+    &:hover {
+        background-color: white;
+        color: $blue-color;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 200px;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.top-background {
+    background-color: $light-beige-background-color;
+}
+
+@import './header.scss';
+@import './analytics.scss';
+
+
+@media only screen and (min-width: 769px) and (max-width: 1399px) {
+    .container {
+        padding: 0 100px;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width: 639px) {
+    .container {
+        padding: 0 20px;
+    }
+    .nav-hamburger {
+        display: block;
+    }
+    .nav-bar {
+        display: none;
+    }
+}

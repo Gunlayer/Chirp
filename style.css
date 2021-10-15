@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 200px; }
+
+body {
+  font-family: 'Inter', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.top-background {
+  background-color: #fbf8f3; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0; }
+
+.logo {
+  color: #1da1f2;
+  font-weight: 600; }
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.nav-hamburger {
+  display: none;
+  font-size: 26px; }
+
+.nav-bar-text {
+  list-style-type: none;
+  color: #828282;
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 0.3s; }
+  .nav-bar-text:hover {
+    color: #1da1f2; }
+
+.nav-bar-button {
+  list-style-type: none; }
+
+.twit-button {
+  color: white;
+  background-color: #1da1f2;
+  outline: none;
+  border: 2px solid #1da1f2;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s; }
+  .twit-button .fa-twitter {
+    margin-right: 10px;
+    font-size: 26px; }
+  .twit-button:hover {
+    background-color: white;
+    color: #1da1f2; }
+  .twit-button_header {
+    padding: 10px 15px; }
+
+.analytics-box {
+  display: flex;
+  padding-bottom: 30px; }
+
+.analytics-box-left {
+  width: 60%;
+  box-sizing: border-box;
+  padding-right: 20px; }
+
+.analytics-box-right {
+  width: 40%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #d7f5f5;
+  border-radius: 8px; }
+
+.avatar {
+  margin-left: -30px; }
+  .avatar:first-child {
+    margin-left: 0; }
+
+.analytics-title {
+  margin-top: 20px;
+  font-size: 62px; }
+
+.analytics-text {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #828282; }
+  .analytics-text span {
+    color: darkblue;
+    font-weight: 600; }
+
+.analytics-button-box {
+  margin-top: 20px; }
+  .analytics-button-box a {
+    color: darkblue;
+    font-weight: 600;
+    margin-left: 10px; }
+    .analytics-button-box a .fa-arrow-right {
+      margin-left: 5px;
+      font-size: 12px; }
+
+.avatar-collection {
+  margin-top: 20px; }
+
+.graph-box {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 10px 20px; }
+
+.top-graph-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+.avatar-box {
+  display: flex; }
+
+.avatar-status-box {
+  margin-left: 8px; }
+
+.name {
+  font-weight: 600;
+  font-size: 18px; }
+
+.live-data {
+  color: #828282; }
+
+.status-circle {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  margin-left: 5px; }
+
+.status {
+  display: flex;
+  align-items: center; }
+
+.drop-menu {
+  border-radius: 3px;
+  padding: 10px 12px;
+  border: 2px solid black; }
+
+.fa-chevron-down {
+  margin-left: 10px; }
+
+.graph-img {
+  width: 100%; }
+
+@media only screen and (min-width: 769px) and (max-width: 1399px) {
+  .container {
+    padding: 0 100px; } }
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+  .container {
+    padding: 0 50px; } }
+@media only screen and (max-width: 639px) {
+  .container {
+    padding: 0 20px; }
+
+  .nav-hamburger {
+    display: block; }
+
+  .nav-bar {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
