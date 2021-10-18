@@ -1,0 +1,46 @@
+.feedbacks {
+    background-color: $blue-background-color;    
+    margin-top: 60px;
+}
+.main-title__pt100 {
+    padding-top: 100px;
+}
+.post-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: flex-start;
+    padding-bottom: 60px;
+    .fa-twitter {
+        color: $blue-color;
+    }
+}
+.post-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 32%;
+    box-sizing: border-box;
+}
+.top-post-box__ai-center {
+    align-items: center;
+}
+.post-text {
+    color: $grey-font-color;
+    margin-top: 20px;
+}
+.bottom-post-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.likes {
+    color: $grey-font-color;
+    .fa-heart {
+        color: red;
+    }
+}
+.post-date {
+    color: $grey-font-color;
+}

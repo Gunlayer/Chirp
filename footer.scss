@@ -1,0 +1,23 @@
+.footer {
+    background-color: $blue-background-color;
+    margin-top: 60px;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.footer-nav {
+    list-style-type: none;
+    display: flex;
+    li {
+        cursor: pointer;
+        padding: 15px;
+        font-size: 18px;
+        transition: color 0.3s;
+        &:hover {
+            color: $grey-font-color;
+        }
+    }
+}

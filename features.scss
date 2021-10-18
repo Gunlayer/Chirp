@@ -1,0 +1,33 @@
+.features {
+    margin-top: 100px;
+}
+.main-title {
+    
+    max-width: 350px;
+    font-size: 28px;
+}
+.features-box {
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+.features-content {
+    padding: 15px;
+    border: 1px solid $grey-font-color;
+    border-radius: 8px;
+}
+.features-img {
+    width: 10%;
+    img {
+        width: 100%;
+    }      
+}
+.features-title {
+    margin-top: 15px;
+}
+.features-text {
+    margin-top: 15px;
+    color: $grey-font-color;
+}

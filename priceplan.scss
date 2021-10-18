@@ -1,0 +1,53 @@
+.price-plan {
+    margin-top: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;    
+}
+.price-card {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid $yellow-border-color;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: $light-beige-background-color;
+    margin-top: 50px;
+}
+.twit-button_width100 {
+    width: 100%;
+}
+.price-title {
+    text-align: center;
+    margin-top: 80px;
+}
+.price-describtion {
+    text-align: center;
+    color: $grey-font-color;
+    margin-top: 15px;
+}
+.price-date {
+    font-size: 22px;
+    color: $grey-font-color;
+    font-weight: 300;
+}
+.price {
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+.line {
+    background-color: $grey-font-color;
+    height: 1px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.price-text {
+    color: $grey-font-color;
+    margin-top: 30px;
+}
+.fa-check-circle {
+    color: lightgreen;
+    margin-right: 10px;
+}

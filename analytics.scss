@@ -1,6 +1,7 @@
 .analytics-box {
     display: flex;
     padding-bottom: 30px;
+    flex-direction: row;
 }
 .analytics-box-left {
     width: 60%;
@@ -10,7 +11,7 @@
 .analytics-box-right {
     width: 40%;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 20px;
     background-color: $blue-background-color;
     border-radius: 8px;
 }
@@ -54,9 +55,9 @@
     box-sizing: border-box;
     background-color: white;
     border-radius: 5px;
-    padding: 10px 10px 20px;
+    padding: 20px 20px;
 }
-.top-graph-box {
+.top-post-box {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -91,10 +92,32 @@
     border-radius: 3px;
     padding: 10px 12px;
     border: 2px solid black;
+    cursor: pointer;
 }
 .fa-chevron-down {
     margin-left: 10px;
 }
 .graph-img {
     width: 100%;
+}
+.stats {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    &:last-child {
+        margin-bottom: 20px;
+    }
+}
+
+.stats-text {
+    margin-top: 5px;
+    color: $grey-font-color;    
+}
+.stats-numbers {
+    font-weight: 600;
+    font-size: 19px;
 }
